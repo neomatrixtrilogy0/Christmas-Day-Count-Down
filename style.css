@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    background-image: url('images/snow_bg1.jpg') ;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5rem;
+    margin-top: -25rem ;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 7rem;
+    line-height: 1;
+    margin: 0 3rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 2rem;
+}
